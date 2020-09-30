@@ -1,5 +1,3 @@
-#!bin/bash
-
 clear
 echo    
 printf "      \e[1;77m\e[41m  Obtén toda la lista de usuarios de tu sistema!  \e[0m\n"
